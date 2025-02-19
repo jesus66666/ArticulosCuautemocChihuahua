@@ -119,7 +119,7 @@
                 <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
             </a>
         </div>
-        <img src="ropa.jpg" alt="Ropa">
+        <img class="Articulo" src="ropa.jpg" alt="Ropa">
         <div class="description">
             Ropa de alta calidad, disponible en varias tallas.
         </div>
@@ -133,7 +133,7 @@
                 <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
             </a>
         </div>
-        <img src="martillo.jpg" alt="Martillo">
+        <img class="Articulo" src="martillo.jpg" alt="Martillo">
         <div class="description">
             Martillo resistente para trabajos de construcción.
         </div>
@@ -163,7 +163,7 @@
 
         function highlightProductImage(productElement) {
             if (productElement) {
-                let productImage = productElement.querySelector("img:not(.store-logo)"); // Seleccionar solo la imagen del producto
+                let productImage = productElement.querySelector("img:not(.Articulo)"); // Seleccionar solo la imagen del producto
                 if (productImage) {
                     productImage.classList.add("highlighted"); // Agregar sombreado púrpura
                 }
