@@ -86,10 +86,15 @@
             border-radius: 10px;
         }
 
-        /* Clase para sombrear la imagen seleccionada */
+        /* Clase para sombrear la imagen seleccionada...*/
         .highlighted {
-            filter: drop-shadow(0px 0px 10px purple);
+            filter: drop-shadow(0px 0px 15px purple);
         }
+        .highlighted {
+            outline: 3px d purple;
+            border-radius: 10px;
+        }
+        
 
         /* Margen superior para la descripción del producto */
         .description {
@@ -115,7 +120,7 @@
     <div class="container" id="producto-ropa" data-keywords="ropa, prendas de vestir, camisetas, chamarras">
         <img class="store-logo" src="ripa.png" alt="Tienda 1">
         <div class="whatsapp">
-            <a href="#" onclick="sendWhatsApp('6355923802', 'ropa', 'Ropa de alta calidad')">
+            <a href="#" onclick="sendWhatsApp('6351177217', 'ropa', 'Ropa de alta calidad')">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
             </a>
         </div>
@@ -124,7 +129,22 @@
             Ropa de alta calidad, disponible en varias tallas.
         </div>
     </div>
-            <!-- Contenedor del producto: Cuhara -->
+
+    <!-- Contenedor del producto: Martillo -->
+    <div class="container" id="producto-martillo" data-keywords="casa sergio, martillo, herramientas, construcción">
+        <img class="store-logo" src="casasergio.png" alt="Tienda 2">
+        <div class="whatsapp">
+            <a href="#" onclick="sendWhatsApp('6351177217', 'martillo', 'Martillo resistente para construcción')">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+            </a>
+        </div>
+        <img class="Articulo" src="martillo.jpg" alt="Martillo">
+        <div class="description">
+            Martillo resistente para trabajos de construcción.
+        </div>
+    </div>
+
+        <!-- Contenedor del producto: Cuhara -->
     <div class="container" id="producto-Cuchara" data-keywords="casa sergio, Cuchara, herramientas, construcción">
         <img class="store-logo" src="casasergio.png" alt="Tienda 2">
         <div class="whatsapp">
@@ -151,6 +171,7 @@
             Rico platillo para disfrutar.
         </div>
     </div>
+
         <!-- Contenedor del producto: Sombrero -->
     <div class="container" id="producto-sombrero" data-keywords="Polo el Ranchero, rodeo, Caballero, Sombrero">
         <img class="store-logo" src="casasergio.png" alt="Tienda 2">
@@ -162,19 +183,6 @@
         <img class="Articulo" src="sombrero.jpg" alt="sombrero">
         <div class="description">
             Hermozo Sombrero para lucir arriva de tú Caballo
-        </div>
-    </div>
-    <!-- Contenedor del producto: Martillo -->
-    <div class="container" id="producto-martillo" data-keywords="casa sergio, martillo, herramientas, construcción">
-        <img class="store-logo" src="casasergio.png" alt="Tienda 2">
-        <div class="whatsapp">
-            <a href="#" onclick="sendWhatsApp('6355923802', 'martillo', 'Martillo resistente para construcción')">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
-            </a>
-        </div>
-        <img class="Articulo" src="martillo.jpg" alt="Martillo">
-        <div class="description">
-            Martillo resistente para trabajos de construcción.
         </div>
     </div>
 
