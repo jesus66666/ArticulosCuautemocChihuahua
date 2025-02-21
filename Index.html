@@ -202,7 +202,7 @@
 
         function highlightProductImage(productElement) {
             if (productElement) {
-                let productImage = productElement.querySelector("img:not(.Articulo)"); // Seleccionar solo la imagen del producto
+                let productImage = productElement.querySelector(".Articulo"); // Seleccionar solo la imagen del producto
                 if (productImage) {
                     productImage.classList.add("highlighted"); // Agregar sombreado púrpura
                 }
